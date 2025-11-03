@@ -1,0 +1,20 @@
+{
+    "sources": [
+        {
+            "source": "entity",
+            "prefix": "entity/",
+            "type": "directory"
+        },
+        {
+            "source": "armor",
+            "prefix": "armor/",
+            "type": "directory"
+        },
+        {
+            "type": "directory",
+            "source": "ablockalypse",
+            "prefix": "ablockalypse/"
+        },
+        {"source":"entity","prefix":"entity/","type":"directory"},{"pattern":{"namespace":"minecraft","path":"entity/fishing_hook"},"type":"filter"}
+    ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "omega:block/containers/safe_front",
+    "side": "omega:block/containers/safe_side",
+    "top": "omega:block/containers/safe_top"
+  }
+}

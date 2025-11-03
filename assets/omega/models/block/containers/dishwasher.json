@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "omega:block/containers/dishwasher_side",
+    "side": "omega:block/containers/dishwasher_top",
+    "top": "omega:block/containers/dishwasher_top"
+  }
+}

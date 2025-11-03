@@ -1,0 +1,13 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+        "particle": "omega:block/containers/black_drawer_cabinet_top",
+        "up": "omega:block/containers/black_drawer_cabinet_top",
+        "down": "omega:block/containers/black_drawer_cabinet_bottom",
+        "north": "omega:block/containers/black_drawer_cabinet_front",
+	"east": "omega:block/containers/black_drawer_cabinet_side",
+	"south": "omega:block/containers/black_drawer_cabinet_front",
+	"west": "omega:block/containers/black_drawer_cabinet_side"
+
+	}
+}

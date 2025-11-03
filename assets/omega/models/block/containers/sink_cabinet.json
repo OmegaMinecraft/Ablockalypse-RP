@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "omega:block/containers/sink_cabinet_side",
+    "side": "omega:block/containers/sink_cabinet_side",
+    "top": "omega:block/containers/sink_cabinet_top"
+  }
+}

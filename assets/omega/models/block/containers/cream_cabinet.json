@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+        "particle": "omega:block/containers/cream_cabinet",
+        "up": "omega:block/containers/cream_top",
+        "down": "omega:block/containers/cream_top",
+        "north": "omega:block/containers/cream_cabinet",
+	"east": "omega:block/containers/cream_cabinet",
+	"south": "omega:block/containers/cream_cabinet",
+	"west": "omega:block/containers/cream_cabinet"
+	}
+}

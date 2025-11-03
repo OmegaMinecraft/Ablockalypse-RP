@@ -1,0 +1,61 @@
+{
+	"texture_size": [128, 128],
+	"textures": {
+		"layer0": "item/plank_shield/plankbase"
+	},
+	"elements": [
+		{
+			"from": [2, -3, 5],
+			"to": [14, 19, 6],
+			"faces": {
+				"north": {"uv": [0.25, 0.25, 3.25, 5.75], "texture": "#layer0"},
+				"east": {"uv": [3.25, 0.25, 3.5, 5.75], "texture": "#layer0"},
+				"south": {"uv": [3.5, 0.25, 6.5, 5.75], "texture": "#layer0"},
+				"west": {"uv": [0, 0.25, 0.25, 5.75], "texture": "#layer0"},
+				"up": {"uv": [0.25, 0, 3.25, 0.25], "texture": "#layer0"},
+				"down": {"uv": [0.25, 0, 3.25, 0.25], "texture": "#layer0"}
+			}
+		},
+		{
+			"from": [7, 5, 6],
+			"to": [9, 11, 12],
+			"faces": {
+				"north": {"uv": [8, 1.5, 8.5, 3], "texture": "#layer0"},
+				"east": {"uv": [6.5, 1.5, 8, 3], "texture": "#layer0"},
+				"south": {"uv": [8, 1.5, 8.5, 3], "texture": "#layer0"},
+				"west": {"uv": [6.5, 1.5, 8, 3], "texture": "#layer0"},
+				"up": {"uv": [8, 1.5, 8.5, 3], "texture": "#layer0"},
+				"down": {"uv": [8, 1.5, 8.5, 3], "texture": "#layer0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -82, 0],
+			"translation": [1.25, -2, 3]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -82, 0],
+			"translation": [1.25, -2, 3]
+		},
+		"firstperson_righthand": {
+			"rotation": [35, -30, 10],
+			"translation": [-2, -1.75, 1],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"firstperson_lefthand": {
+			"rotation": [35, -30, 10],
+			"translation": [-2, -1.75, 1],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"ground": {
+			"rotation": [90, 40, 0],
+			"translation": [0, 0.5, 0]
+		},
+		"gui": {
+			"rotation": [20, 145, 5],
+			"translation": [0, 0.25, 0],
+			"scale": [0.7, 0.7, 0.7]
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+        "particle": "omega:block/containers/clinical_waste_top",
+        "up": "omega:block/containers/clinical_waste_top",
+        "down": "omega:block/containers/clinical_waste_side",
+        "north": "omega:block/containers/clinical_waste_side",
+	"east": "omega:block/containers/clinical_waste_side",
+	"south": "omega:block/containers/clinical_waste_side",
+	"west": "omega:block/containers/clinical_waste_side"
+
+	}
+}

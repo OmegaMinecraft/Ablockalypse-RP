@@ -1,0 +1,116 @@
+name: Create Ablockalypse Resource Pack Release
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:  # Allows manual triggering
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # Fetch full history
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Configure Git
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+    
+    - name: Create Resource Pack Archive
+      uses: thedoctor0/zip-release@0.7.5
+      with:
+        type: 'zip'
+        filename: 'ablockalypse-resource-pack.zip'
+        exclusions: |
+          *.git*
+          *.github*
+          *node_modules*
+          *.editorconfig
+          *.gitignore
+          *.md
+          README*
+          LICENSE*
+          .DS_Store
+          Thumbs.db
+    
+    - name: Verify archive contents and generate hash
+      run: |
+        echo "Archive created successfully!"
+        ls -la ablockalypse-resource-pack.zip
+        echo "Archive contents (first 25 entries):"
+        unzip -l ablockalypse-resource-pack.zip | head -25
+        echo ""
+        echo "Checking multi-version overlay structure..."
+        echo "mythichud-modern overlay:"
+        unzip -l ablockalypse-resource-pack.zip | grep "mythichud-modern" | head -5 || echo "No mythichud-modern files found"
+        echo "mythichud-modern-plus overlay:"
+        unzip -l ablockalypse-resource-pack.zip | grep "mythichud-modern-plus" | head -5 || echo "No mythichud-modern-plus files found"
+        echo ""
+        echo "Generating hashes..."
+        echo "SHA256: $(sha256sum ablockalypse-resource-pack.zip | cut -d' ' -f1)"
+        echo "SHA1: $(sha1sum ablockalypse-resource-pack.zip | cut -d' ' -f1)"
+        echo "MD5: $(md5sum ablockalypse-resource-pack.zip | cut -d' ' -f1)"
+        
+        # Save hashes to environment for use in release notes
+        echo "PACK_SHA256=$(sha256sum ablockalypse-resource-pack.zip | cut -d' ' -f1)" >> $GITHUB_ENV
+        echo "PACK_SHA1=$(sha1sum ablockalypse-resource-pack.zip | cut -d' ' -f1)" >> $GITHUB_ENV
+        echo "PACK_MD5=$(md5sum ablockalypse-resource-pack.zip | cut -d' ' -f1)" >> $GITHUB_ENV
+        echo "PACK_SIZE=$(stat -f%z ablockalypse-resource-pack.zip 2>/dev/null || stat -c%s ablockalypse-resource-pack.zip)" >> $GITHUB_ENV
+    
+    - name: Create GitHub Release
+      uses: softprops/action-gh-release@v2
+      with:
+        tag_name: release
+        name: "Latest Ablockalypse Resource Pack"
+        body: |
+          🏙️ **Ablockalypse Resource Pack - Urban Apocalypse Edition**
+          
+          Transform your Minecraft world into a modern urban apocalypse environment! This resource pack converts vanilla blocks and items into industrial/urban assets for the OmegaMinecraft server.
+          
+          ## 🎮 Compatibility
+          - **Minecraft Versions:** 1.13 - 1.21+ (multi-version overlay support)
+          - **Pack Format:** 13 (base) with overlays for formats 32-34 and 42-46
+          - **Plugin Integration:** ModelEngine, MythicHUD, OmegaMinecraft server assets
+          
+          ## 📥 Installation & Usage
+          - **Manual Download:** Click `ablockalypse-resource-pack.zip` below
+          - **ForcePacks URL:** `https://github.com/${{ github.repository }}/releases/download/release/ablockalypse-resource-pack.zip`
+          - **Server Integration:** Use the URL above in your server's resource pack configuration
+          
+          ## 🏗️ Features
+          - 600+ custom block textures with urban/industrial theme
+          - Random rotation variants to eliminate repetitive patterns
+          - Custom 3D models for rails, complex blocks
+          - Urban animal sounds (pigeons, rats, ravens, seagulls)
+          - Complete vanilla localization override (6,884 entries)
+          - Multi-version shader support via overlays
+          
+          ## 🔐 File Verification
+          **File Size:** ${{ env.PACK_SIZE }} bytes
+          
+          ## 📊 Build Information
+          **Generated:** ${{ github.event.head_commit.timestamp }}
+          **Workflow Run:** [${{ github.run_id }}](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
+          **Commit:** [`${{ github.sha }}`](https://github.com/${{ github.repository }}/commit/${{ github.sha }})
+          **Branch:** ${{ github.ref_name }}
+          
+          ---
+          
+          *This resource pack is designed for the OmegaMinecraft apocalypse server environment.*
+        files: |
+          ablockalypse-resource-pack.zip
+        prerelease: false
+        make_latest: true
+        generate_release_notes: false
+        fail_on_unmatched_files: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

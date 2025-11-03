@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "all": "minecraft:block/note_block"
+  }
+}

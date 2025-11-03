@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+        "particle": "omega:block/containers/spruce_drawers",
+        "up": "omega:block/containers/spruce_top",
+        "down": "omega:block/containers/spruce_top",
+        "north": "omega:block/containers/spruce_drawers",
+	"east": "omega:block/containers/spruce_drawers",
+	"south": "omega:block/containers/spruce_drawers",
+	"west": "omega:block/containers/spruce_drawers"
+	}
+}

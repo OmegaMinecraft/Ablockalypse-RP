@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+        "particle": "omega:block/containers/acacia_drawer_cabinet",
+        "up": "omega:block/containers/acacia_top",
+        "down": "omega:block/containers/acacia_top",
+        "north": "omega:block/containers/acacia_drawer_cabinet",
+	"east": "omega:block/containers/acacia_drawer_cabinet",
+	"south": "omega:block/containers/acacia_drawer_cabinet",
+	"west": "omega:block/containers/acacia_drawer_cabinet"
+	}
+}

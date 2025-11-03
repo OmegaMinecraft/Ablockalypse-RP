@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "omega:block/containers/metal_oven_front",
+    "side": "omega:block/containers/metal_oven_side",
+    "top": "omega:block/containers/metal_oven_top"
+  }
+}

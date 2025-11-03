@@ -1,0 +1,13 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+        "particle": "omega:block/containers/trash_can_top",
+        "up": "omega:block/containers/trash_can_top",
+        "down": "omega:block/containers/trash_can_side",
+        "north": "omega:block/containers/trash_can_side",
+	"east": "omega:block/containers/trash_can_side",
+	"south": "omega:block/containers/trash_can_side",
+	"west": "omega:block/containers/trash_can_side"
+
+	}
+}

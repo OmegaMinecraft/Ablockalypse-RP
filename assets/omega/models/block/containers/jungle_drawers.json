@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+        "particle": "omega:block/containers/jungle_drawers",
+        "up": "omega:block/containers/jungle_top",
+        "down": "omega:block/containers/jungle_top",
+        "north": "omega:block/containers/jungle_drawers",
+	"east": "omega:block/containers/jungle_drawers",
+	"south": "omega:block/containers/jungle_drawers",
+	"west": "omega:block/containers/jungle_drawers"
+	}
+}

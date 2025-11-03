@@ -1,0 +1,13 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+        "particle": "omega:block/containers/arrow_box_top",
+        "up": "omega:block/containers/arrow_box_top",
+        "down": "omega:block/containers/arrow_box_side",
+        "north": "omega:block/containers/arrow_box_front",
+	"east": "omega:block/containers/arrow_box_side",
+	"south": "omega:block/containers/arrow_box_front",
+	"west": "omega:block/containers/arrow_box_side"
+
+	}
+}

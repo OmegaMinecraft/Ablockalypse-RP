@@ -1,0 +1,34 @@
+{
+	"ablockalypse.pigeon_1":{
+		"category":"hostile",
+		"sounds":["ablockalypse/pigeon_1"]
+	},
+	"ablockalypse.pigeon_2":{
+		"category":"hostile",
+		"sounds":["ablockalypse/pigeon_2"]
+	},
+	"ablockalypse.rat_1":{
+		"category":"hostile",
+		"sounds":["ablockalypse/rat_1"]
+	},
+	"ablockalypse.rat_2":{
+		"category":"hostile",
+		"sounds":["ablockalypse/rat_2"]
+	},
+	"ablockalypse.raven_1":{
+		"category":"hostile",
+		"sounds":["ablockalypse/raven_1"]
+	},
+	"ablockalypse.raven_2":{
+		"category":"hostile",
+		"sounds":["ablockalypse/raven_2"]
+	},
+	"ablockalypse.seagull_1":{
+		"category":"hostile",
+		"sounds":["ablockalypse/seagull_1"]
+	},
+	"ablockalypse.seagull_2":{
+		"category":"hostile",
+		"sounds":["ablockalypse/seagull_2"]
+	}
+}

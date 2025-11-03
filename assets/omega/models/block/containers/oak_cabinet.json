@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+        "particle": "omega:block/containers/oak_cabinet",
+        "up": "omega:block/containers/oak_top",
+        "down": "omega:block/containers/oak_top",
+        "north": "omega:block/containers/oak_cabinet",
+	"east": "omega:block/containers/oak_cabinet",
+	"south": "omega:block/containers/oak_cabinet",
+	"west": "omega:block/containers/oak_cabinet"
+	}
+}

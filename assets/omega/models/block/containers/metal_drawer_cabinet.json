@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+        "particle": "omega:block/containers/metal_drawer_cabinet",
+        "up": "omega:block/containers/metal_oven_top",
+        "down": "omega:block/containers/metal_oven_top",
+        "north": "omega:block/containers/metal_drawer_cabinet",
+	"east": "omega:block/containers/metal_drawer_cabinet",
+	"south": "omega:block/containers/metal_drawer_cabinet",
+	"west": "omega:block/containers/metal_drawer_cabinet"
+	}
+}

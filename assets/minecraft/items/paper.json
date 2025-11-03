@@ -1,0 +1,1244 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/paper"
+        },
+        "entries": [
+            {
+                "threshold": 0,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/paper"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/health/aloe_cream"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/health/antibac_wipes"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/health/bandage"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/health/cough_syrup"
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/health/medkit"
+                }
+            },
+            {
+                "threshold": 6,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/health/pills"
+                }
+            },
+            {
+                "threshold": 7,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/health/vitamins"
+                }
+            },
+            {
+                "threshold": 8,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/health/splint"
+                }
+            },
+            {
+                "threshold": 9,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/health/tourniquet"
+                }
+            },
+            {
+                "threshold": 10,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/health/bandaid"
+                }
+            },
+            {
+                "threshold": 11,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/health/small_medkit"
+                }
+            },
+            {
+                "threshold": 12,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/backpacks/backpack_blue"
+                }
+            },
+            {
+                "threshold": 13,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/backpacks/backpack_green"
+                }
+            },
+            {
+                "threshold": 14,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/backpacks/backpack_red"
+                }
+            },
+            {
+                "threshold": 15,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/other/scroll"
+                }
+            },
+            {
+                "threshold": 16,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/other/teddy_bear"
+                }
+            },
+            {
+                "threshold": 17,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/other/omega_key"
+                }
+            },
+            {
+                "threshold": 18,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/other/vote_key"
+                }
+            },
+            {
+                "threshold": 19,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/other/prize_key"
+                }
+            },
+            {
+                "threshold": 20,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/acacia_cabinet"
+                }
+            },
+            {
+                "threshold": 21,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/acacia_drawer_cabinet"
+                }
+            },
+            {
+                "threshold": 22,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/acacia_drawers"
+                }
+            },
+            {
+                "threshold": 23,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/arrow_box"
+                }
+            },
+            {
+                "threshold": 24,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/black_drawer_cabinet"
+                }
+            },
+            {
+                "threshold": 25,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/box"
+                }
+            },
+            {
+                "threshold": 26,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/cardboard_box"
+                }
+            },
+            {
+                "threshold": 27,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/clinical_waste"
+                }
+            },
+            {
+                "threshold": 28,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/crate"
+                }
+            },
+            {
+                "threshold": 29,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/cream_cabinet"
+                }
+            },
+            {
+                "threshold": 30,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/cream_drawer_cabinet"
+                }
+            },
+            {
+                "threshold": 31,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/cream_drawers"
+                }
+            },
+            {
+                "threshold": 32,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/dishwasher"
+                }
+            },
+            {
+                "threshold": 33,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/jungle_cabinet"
+                }
+            },
+            {
+                "threshold": 34,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/jungle_drawer_cabinet"
+                }
+            },
+            {
+                "threshold": 35,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/jungle_drawers"
+                }
+            },
+            {
+                "threshold": 36,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/metal_cabinet"
+                }
+            },
+            {
+                "threshold": 37,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/metal_drawer_cabinet"
+                }
+            },
+            {
+                "threshold": 38,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/metal_drawers"
+                }
+            },
+            {
+                "threshold": 39,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/metal_oven"
+                }
+            },
+            {
+                "threshold": 40,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/metal_stove"
+                }
+            },
+            {
+                "threshold": 41,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/oak_cabinet"
+                }
+            },
+            {
+                "threshold": 42,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/oak_drawer_cabinet"
+                }
+            },
+            {
+                "threshold": 43,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/oak_drawers"
+                }
+            },
+            {
+                "threshold": 44,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/sink_cabinet"
+                }
+            },
+            {
+                "threshold": 45,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/spruce_cabinet"
+                }
+            },
+            {
+                "threshold": 46,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/spruce_drawer_cabinet"
+                }
+            },
+            {
+                "threshold": 47,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/spruce_drawers"
+                }
+            },
+            {
+                "threshold": 48,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/trash_bag"
+                }
+            },
+            {
+                "threshold": 49,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/trash_can"
+                }
+            },
+            {
+                "threshold": 50,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/washing_machine"
+                }
+            },
+            {
+                "threshold": 51,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/waste_can"
+                }
+            },
+            {
+                "threshold": 52,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/white_oven"
+                }
+            },
+            {
+                "threshold": 53,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/containers/safe"
+                }
+            },
+            {
+                "threshold": 1001,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/invisible"
+                }
+            },
+            {
+                "threshold": 1002,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/groups/enable_block_break"
+                }
+            },
+            {
+                "threshold": 1003,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/groups/disable_block_break"
+                }
+            },
+            {
+                "threshold": 1004,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/groups/enable_claim"
+                }
+            },
+            {
+                "threshold": 1005,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/groups/disable_claim"
+                }
+            },
+            {
+                "threshold": 1006,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/groups/enable_delete_claim"
+                }
+            },
+            {
+                "threshold": 1007,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/groups/disable_delete_claim"
+                }
+            },
+            {
+                "threshold": 1008,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/groups/enable_demote_player"
+                }
+            },
+            {
+                "threshold": 1009,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/groups/disable_demote_player"
+                }
+            },
+            {
+                "threshold": 1010,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/groups/enable_invite_player"
+                }
+            },
+            {
+                "threshold": 1011,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/groups/disable_invite_player"
+                }
+            },
+            {
+                "threshold": 1012,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/groups/enable_kick_player"
+                }
+            },
+            {
+                "threshold": 1013,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/groups/disable_kick_player"
+                }
+            },
+            {
+                "threshold": 1014,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/groups/enable_open_chest"
+                }
+            },
+            {
+                "threshold": 1015,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/groups/disable_open_chest"
+                }
+            },
+            {
+                "threshold": 1016,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/groups/enable_permission_change"
+                }
+            },
+            {
+                "threshold": 1017,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/groups/disable_permission_change"
+                }
+            },
+            {
+                "threshold": 1018,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/groups/enable_place_block"
+                }
+            },
+            {
+                "threshold": 1019,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/groups/disable_place_block"
+                }
+            },
+            {
+                "threshold": 1020,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/groups/enable_promote_player"
+                }
+            },
+            {
+                "threshold": 1021,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/groups/disable_promote_player"
+                }
+            },
+            {
+                "threshold": 1022,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/groups/group_claim"
+                }
+            },
+            {
+                "threshold": 1023,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/groups/group_rank"
+                }
+            },
+            {
+                "threshold": 1050,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/archer_tier_one"
+                }
+            },
+            {
+                "threshold": 1051,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/archer_tier_two"
+                }
+            },
+            {
+                "threshold": 1052,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/archer_tier_three"
+                }
+            },
+            {
+                "threshold": 1053,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/archer_tier_four"
+                }
+            },
+            {
+                "threshold": 1054,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/archer_tier_five"
+                }
+            },
+            {
+                "threshold": 1055,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/archer_tier_six"
+                }
+            },
+            {
+                "threshold": 1056,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/athlete_tier_one"
+                }
+            },
+            {
+                "threshold": 1057,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/athlete_tier_two"
+                }
+            },
+            {
+                "threshold": 1058,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/athlete_tier_three"
+                }
+            },
+            {
+                "threshold": 1059,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/athlete_tier_four"
+                }
+            },
+            {
+                "threshold": 1060,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/athlete_tier_five"
+                }
+            },
+            {
+                "threshold": 1061,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/athlete_tier_six"
+                }
+            },
+            {
+                "threshold": 1062,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/blunt_weapons_tier_one"
+                }
+            },
+            {
+                "threshold": 1063,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/blunt_weapons_tier_two"
+                }
+            },
+            {
+                "threshold": 1064,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/blunt_weapons_tier_three"
+                }
+            },
+            {
+                "threshold": 1065,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/blunt_weapons_tier_four"
+                }
+            },
+            {
+                "threshold": 1066,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/blunt_weapons_tier_five"
+                }
+            },
+            {
+                "threshold": 1067,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/blunt_weapons_tier_six"
+                }
+            },
+            {
+                "threshold": 1068,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/boxer_tier_one"
+                }
+            },
+            {
+                "threshold": 1069,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/boxer_tier_two"
+                }
+            },
+            {
+                "threshold": 1070,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/boxer_tier_three"
+                }
+            },
+            {
+                "threshold": 1071,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/boxer_tier_four"
+                }
+            },
+            {
+                "threshold": 1072,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/boxer_tier_five"
+                }
+            },
+            {
+                "threshold": 1073,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/boxer_tier_six"
+                }
+            },
+            {
+                "threshold": 1074,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/carpenter_tier_one"
+                }
+            },
+            {
+                "threshold": 1075,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/carpenter_tier_two"
+                }
+            },
+            {
+                "threshold": 1076,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/carpenter_tier_three"
+                }
+            },
+            {
+                "threshold": 1077,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/carpenter_tier_four"
+                }
+            },
+            {
+                "threshold": 1078,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/carpenter_tier_five"
+                }
+            },
+            {
+                "threshold": 1079,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/carpenter_tier_six"
+                }
+            },
+            {
+                "threshold": 1080,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/chef_tier_one"
+                }
+            },
+            {
+                "threshold": 1081,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/chef_tier_two"
+                }
+            },
+            {
+                "threshold": 1082,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/chef_tier_three"
+                }
+            },
+            {
+                "threshold": 1083,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/chef_tier_four"
+                }
+            },
+            {
+                "threshold": 1084,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/chef_tier_five"
+                }
+            },
+            {
+                "threshold": 1085,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/chef_tier_six"
+                }
+            },
+            {
+                "threshold": 1086,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/doctor_tier_one"
+                }
+            },
+            {
+                "threshold": 1087,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/doctor_tier_two"
+                }
+            },
+            {
+                "threshold": 1088,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/doctor_tier_three"
+                }
+            },
+            {
+                "threshold": 1089,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/doctor_tier_four"
+                }
+            },
+            {
+                "threshold": 1090,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/doctor_tier_five"
+                }
+            },
+            {
+                "threshold": 1091,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/doctor_tier_six"
+                }
+            },
+            {
+                "threshold": 1092,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/freerunner_tier_one"
+                }
+            },
+            {
+                "threshold": 1093,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/freerunner_tier_two"
+                }
+            },
+            {
+                "threshold": 1094,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/freerunner_tier_three"
+                }
+            },
+            {
+                "threshold": 1095,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/freerunner_tier_four"
+                }
+            },
+            {
+                "threshold": 1096,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/freerunner_tier_five"
+                }
+            },
+            {
+                "threshold": 1097,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/freerunner_tier_six"
+                }
+            },
+            {
+                "threshold": 1098,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/sharpweapons_tier_one"
+                }
+            },
+            {
+                "threshold": 1099,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/sharpweapons_tier_two"
+                }
+            },
+            {
+                "threshold": 1100,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/sharpweapons_tier_three"
+                }
+            },
+            {
+                "threshold": 1101,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/sharpweapons_tier_four"
+                }
+            },
+            {
+                "threshold": 1102,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/sharpweapons_tier_five"
+                }
+            },
+            {
+                "threshold": 1103,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/sharpweapons_tier_six"
+                }
+            },
+            {
+                "threshold": 1104,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/shield_tier_one"
+                }
+            },
+            {
+                "threshold": 1105,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/shield_tier_two"
+                }
+            },
+            {
+                "threshold": 1106,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/shield_tier_three"
+                }
+            },
+            {
+                "threshold": 1107,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/shield_tier_four"
+                }
+            },
+            {
+                "threshold": 1108,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/shield_tier_five"
+                }
+            },
+            {
+                "threshold": 1109,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/shield_tier_six"
+                }
+            },
+            {
+                "threshold": 1110,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/soldier_tier_one"
+                }
+            },
+            {
+                "threshold": 1111,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/soldier_tier_two"
+                }
+            },
+            {
+                "threshold": 1112,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/soldier_tier_three"
+                }
+            },
+            {
+                "threshold": 1113,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/soldier_tier_four"
+                }
+            },
+            {
+                "threshold": 1114,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/soldier_tier_five"
+                }
+            },
+            {
+                "threshold": 1115,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/soldier_tier_six"
+                }
+            },
+            {
+                "threshold": 1116,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/spy_tier_one"
+                }
+            },
+            {
+                "threshold": 1117,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/spy_tier_two"
+                }
+            },
+            {
+                "threshold": 1118,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/spy_tier_three"
+                }
+            },
+            {
+                "threshold": 1119,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/spy_tier_four"
+                }
+            },
+            {
+                "threshold": 1120,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/spy_tier_five"
+                }
+            },
+            {
+                "threshold": 1121,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/spy_tier_six"
+                }
+            },
+            {
+                "threshold": 1122,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/tailor_tier_one"
+                }
+            },
+            {
+                "threshold": 1123,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/tailor_tier_two"
+                }
+            },
+            {
+                "threshold": 1124,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/tailor_tier_three"
+                }
+            },
+            {
+                "threshold": 1125,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/tailor_tier_four"
+                }
+            },
+            {
+                "threshold": 1126,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/tailor_tier_five"
+                }
+            },
+            {
+                "threshold": 1127,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/tailor_tier_six"
+                }
+            },
+            {
+                "threshold": 1128,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/veterinarian_tier_one"
+                }
+            },
+            {
+                "threshold": 1129,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/veterinarian_tier_two"
+                }
+            },
+            {
+                "threshold": 1130,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/veterinarian_tier_three"
+                }
+            },
+            {
+                "threshold": 1131,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/veterinarian_tier_four"
+                }
+            },
+            {
+                "threshold": 1132,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/veterinarian_tier_five"
+                }
+            },
+            {
+                "threshold": 1133,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/veterinarian_tier_six"
+                }
+            },
+            {
+                "threshold": 1134,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/welder_tier_one"
+                }
+            },
+            {
+                "threshold": 1135,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/welder_tier_two"
+                }
+            },
+            {
+                "threshold": 1136,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/welder_tier_three"
+                }
+            },
+            {
+                "threshold": 1137,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/welder_tier_four"
+                }
+            },
+            {
+                "threshold": 1138,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/welder_tier_five"
+                }
+            },
+            {
+                "threshold": 1139,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/skills/welder_tier_six"
+                }
+            },
+            {
+                "threshold": 1140,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/lock"
+                }
+            },
+            {
+                "threshold": 1141,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/next_page"
+                }
+            },
+            {
+                "threshold": 1142,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/previous"
+                }
+            },
+            {
+                "threshold": 1143,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/close"
+                }
+            },
+            {
+                "threshold": 1144,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/cooldown"
+                }
+            },
+            {
+                "threshold": 1145,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/unlocked"
+                }
+            },
+            {
+                "threshold": 1146,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/refresh"
+                }
+            },
+            {
+                "threshold": 1147,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/back"
+                }
+            },
+            {
+                "threshold": 1148,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/accept"
+                }
+            }
+        ]
+    }
+}
