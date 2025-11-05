@@ -250,7 +250,8 @@
                 "model": {
                     "type": "model",
                     "model": "omega:item/drink/weak_coffee"
-                },
+                }
+            },
             {
                 "threshold": 35,
                 "model": {
