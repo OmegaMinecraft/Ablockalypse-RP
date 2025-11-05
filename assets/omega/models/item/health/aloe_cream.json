@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "item/generated",
   "textures": {
-    "layer0": "omega:item/health/aloe_cream"
+    "layer0": "health/aloe_cream"
   }
 }

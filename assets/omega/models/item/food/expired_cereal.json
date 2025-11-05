@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "item/generated",
   "textures": {
-    "layer0": "omega:item/food/expired_cereal"
+    "layer0": "food/expired_cereal"
   }
 }

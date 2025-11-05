@@ -386,6 +386,34 @@
                 }
             },
             {
+                "threshold": 54,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/health/herbal_extract"
+                }
+            },
+            {
+                "threshold": 55,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/health/disinfectant_spray"
+                }
+            },
+            {
+                "threshold": 56,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/health/herbal_bandage"
+                }
+            },
+            {
+                "threshold": 57,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/health/cleaning_rag"
+                }
+            },
+            {
                 "threshold": 1001,
                 "model": {
                     "type": "model",

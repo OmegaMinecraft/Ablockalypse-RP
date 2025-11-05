@@ -132,6 +132,20 @@
                     "type": "model",
                     "model": "omega:item/other/herbal_teabag"
                 }
+            },
+            {
+                "threshold": 18,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/other/plastic_bottle"
+                }
+            },
+            {
+                "threshold": 19,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/other/plastic_scrap"
+                }
             }
         ]
     }

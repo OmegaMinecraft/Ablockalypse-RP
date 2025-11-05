@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "item/generated",
   "textures": {
-    "layer0": "omega:item/food/peanut_butter"
+    "layer0": "food/peanut_butter"
   }
 }

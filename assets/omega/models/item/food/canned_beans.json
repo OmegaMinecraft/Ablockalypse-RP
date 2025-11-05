@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "item/generated",
   "textures": {
-    "layer0": "omega:item/food/canned_beans"
+    "layer0": "food/canned_beans"
   }
 }

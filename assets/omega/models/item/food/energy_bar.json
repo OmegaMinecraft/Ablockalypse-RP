@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "item/generated",
   "textures": {
-    "layer0": "omega:item/food/energy_bar"
+    "layer0": "food/energy_bar"
   }
 }

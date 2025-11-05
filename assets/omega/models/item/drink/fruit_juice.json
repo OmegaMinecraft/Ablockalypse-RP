@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "item/generated",
   "textures": {
-    "layer0": "omega:item/drink/fruit_juice"
+    "layer0": "drink/fruit_juice"
   }
 }

@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "item/generated",
   "textures": {
-    "layer0": "omega:item/health/cough_syrup"
+    "layer0": "health/cough_syrup"
   }
 }
