@@ -1,0 +1,122 @@
+name: Create Ablockalypse Dev Resource Pack Release
+
+on:
+  push:
+    branches: [ dev ]
+  workflow_dispatch:  # Allows manual triggering
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  create-dev-release:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # Fetch full history
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Configure Git
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+    
+    - name: Create Resource Pack Archive
+      uses: thedoctor0/zip-release@0.7.5
+      with:
+        type: 'zip'
+        filename: 'ablockalypse-dev-resource-pack.zip'
+        exclusions: |
+          *.git*
+          *.github*
+          *node_modules*
+          *.editorconfig
+          *.gitignore
+          *.md
+          README*
+          LICENSE*
+          .DS_Store
+          Thumbs.db
+    
+    - name: Verify archive contents and generate hash
+      run: |
+        echo "Dev archive created successfully!"
+        ls -la ablockalypse-dev-resource-pack.zip
+        echo "Archive contents (first 25 entries):"
+        unzip -l ablockalypse-dev-resource-pack.zip | head -25
+        echo ""
+        echo "Checking multi-version overlay structure..."
+        echo "mythichud-modern overlay:"
+        unzip -l ablockalypse-dev-resource-pack.zip | grep "mythichud-modern" | head -5 || echo "No mythichud-modern files found"
+        echo "mythichud-modern-plus overlay:"
+        unzip -l ablockalypse-dev-resource-pack.zip | grep "mythichud-modern-plus" | head -5 || echo "No mythichud-modern-plus files found"
+        echo ""
+        echo "Generating hashes..."
+        echo "SHA256: $(sha256sum ablockalypse-dev-resource-pack.zip | cut -d' ' -f1)"
+        echo "SHA1: $(sha1sum ablockalypse-dev-resource-pack.zip | cut -d' ' -f1)"
+        echo "MD5: $(md5sum ablockalypse-dev-resource-pack.zip | cut -d' ' -f1)"
+        
+        # Save hashes to environment for use in release notes
+        echo "PACK_SHA256=$(sha256sum ablockalypse-dev-resource-pack.zip | cut -d' ' -f1)" >> $GITHUB_ENV
+        echo "PACK_SHA1=$(sha1sum ablockalypse-dev-resource-pack.zip | cut -d' ' -f1)" >> $GITHUB_ENV
+        echo "PACK_MD5=$(md5sum ablockalypse-dev-resource-pack.zip | cut -d' ' -f1)" >> $GITHUB_ENV
+        echo "PACK_SIZE=$(stat -f%z ablockalypse-dev-resource-pack.zip 2>/dev/null || stat -c%s ablockalypse-dev-resource-pack.zip)" >> $GITHUB_ENV
+    
+    - name: Create GitHub Release
+      uses: softprops/action-gh-release@v2
+      with:
+        tag_name: dev-release
+        name: "Latest Ablockalypse Resource Pack (Development)"
+        body: |
+          🚧 **Ablockalypse Resource Pack - Development Build**
+          
+          **⚠️ WARNING: This is a development version for testing purposes only!**
+          
+          This resource pack contains the latest unreleased changes and may include experimental features, incomplete textures, or bugs. Use at your own risk for testing environments only.
+          
+          ## 🎮 Compatibility
+          - **Minecraft Versions:** 1.13 - 1.21+ (multi-version overlay support)
+          - **Pack Format:** 13 (base) with overlays for formats 32-34 and 42-46
+          - **Plugin Integration:** ModelEngine, MythicHUD, OmegaMinecraft server assets
+          
+          ## 📥 Installation & Usage (Testing Only)
+          - **Manual Download:** Click `ablockalypse-dev-resource-pack.zip` below
+          - **ForcePacks URL:** `https://github.com/${{ github.repository }}/releases/download/dev-release/ablockalypse-dev-resource-pack.zip`
+          - **Server Integration:** Use the URL above in your development server's resource pack configuration
+          
+          ## 🧪 Development Features
+          - Latest texture updates and modifications
+          - Work-in-progress 3D models and animations
+          - Experimental sound additions
+          - Updated localization entries
+          - New urban/industrial theme elements
+          
+          ## 🔐 File Verification
+          **File Size:** ${{ env.PACK_SIZE }} bytes
+          **SHA256:** `${{ env.PACK_SHA256 }}`
+          **SHA1:** `${{ env.PACK_SHA1 }}`
+          **MD5:** `${{ env.PACK_MD5 }}`
+          
+          ## 📊 Build Information
+          **Generated:** ${{ github.event.head_commit.timestamp }}
+          **Workflow Run:** [${{ github.run_id }}](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
+          **Commit:** [`${{ github.sha }}`](https://github.com/${{ github.repository }}/commit/${{ github.sha }})
+          **Branch:** ${{ github.ref_name }}
+          
+          ---
+          
+          🔄 **For Production Use:** Switch to the [main release](https://github.com/${{ github.repository }}/releases/tag/release) once testing is complete.
+          
+          *This development resource pack is for testing on OmegaMinecraft development servers only.*
+        files: |
+          ablockalypse-dev-resource-pack.zip
+        prerelease: true
+        make_latest: false
+        generate_release_notes: false
+        fail_on_unmatched_files: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
