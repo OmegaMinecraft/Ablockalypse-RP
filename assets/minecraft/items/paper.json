@@ -414,6 +414,13 @@
                 }
             },
             {
+                "threshold": 58,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/health/soap_bar"
+                }
+            },
+            {
                 "threshold": 1001,
                 "model": {
                     "type": "model",

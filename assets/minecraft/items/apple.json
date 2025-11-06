@@ -326,7 +326,7 @@
                 "threshold": 45,
                 "model": {
                     "type": "model",
-                    "model": "omega:item/food/twinkles_bar"
+                    "model": "omega:item/food/twinkle_bar"
                 }
             },
             {
@@ -382,7 +382,7 @@
                 "threshold": 53,
                 "model": {
                     "type": "model",
-                    "model": "omega:item/food/cheesey_nachos"
+                    "model": "omega:item/food/cheesy_nachos"
                 }
             },
             {
