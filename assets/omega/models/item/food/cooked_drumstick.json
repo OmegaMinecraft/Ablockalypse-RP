@@ -1,6 +1,6 @@
 {
-  "parent": "item/generated",
+  "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "food/cooked_drumstick"
+    "layer0": "omega:item/food/cooked_drumstick"
   }
 }

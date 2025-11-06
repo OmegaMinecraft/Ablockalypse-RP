@@ -1,6 +1,6 @@
 {
-  "parent": "item/generated",
+  "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "health/soap_bar"
+    "layer0": "omega:item/health/soap_bar"
   }
 }

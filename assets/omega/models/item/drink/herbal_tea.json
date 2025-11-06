@@ -1,6 +1,6 @@
 {
-  "parent": "item/generated",
+  "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "drink/herbal_tea"
+    "layer0": "omega:item/drink/herbal_tea"
   }
 }

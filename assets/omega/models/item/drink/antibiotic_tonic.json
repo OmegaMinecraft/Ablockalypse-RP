@@ -1,6 +1,6 @@
 {
-  "parent": "item/generated",
+  "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "drink/antibiotic_tonic"
+    "layer0": "omega:item/drink/antibiotic_tonic"
   }
 }

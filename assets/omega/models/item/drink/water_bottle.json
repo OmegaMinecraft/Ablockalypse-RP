@@ -1,6 +1,6 @@
 {
-  "parent": "item/generated",
+  "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "drink/water_bottle"
+    "layer0": "omega:item/drink/water_bottle"
   }
 }

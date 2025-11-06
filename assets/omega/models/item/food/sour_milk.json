@@ -1,6 +1,6 @@
 {
-  "parent": "item/generated",
+  "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "food/sour_milk"
+    "layer0": "omega:item/food/sour_milk"
   }
 }

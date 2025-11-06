@@ -1,6 +1,6 @@
 {
-  "parent": "item/generated",
+  "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "health/cleaning_rag"
+    "layer0": "omega:item/health/cleaning_rag"
   }
 }
