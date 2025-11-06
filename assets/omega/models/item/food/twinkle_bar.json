@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "omega:item/food/twinkles_bar"
+    "layer0": "omega:item/food/twinkle_bar"
   }
 }
