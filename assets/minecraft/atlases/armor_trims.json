@@ -28,7 +28,7 @@
 	"tactical_material":"trims/color_palettes/tactical_palette",
 	"random_material":"trims/color_palettes/random_palette",
 	"other_material":"trims/color_palettes/other_palette",
-	"other_material":"trims/color_palettes/hazmat_palette"
+	"hazmat_material":"trims/color_palettes/hazmat_palette"
 }
 },
 {
