@@ -20,6 +20,13 @@
                     "type": "model",
                     "model": "omega:item/weapons/molotov"
                 }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/weapons/sticky_bomb"
+                }
             }
         ]
     }
