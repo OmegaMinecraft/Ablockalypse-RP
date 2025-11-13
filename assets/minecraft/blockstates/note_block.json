@@ -250,7 +250,7 @@
 		"instrument=guitar,note=22": { "model": "minecraft:block/note_block" },
 		"instrument=guitar,note=23": { "model": "minecraft:block/note_block" },
 		"instrument=guitar,note=24": { "model": "minecraft:block/note_block" },
-		"instrument=harp,note=0": { "model": "omega:block/containers/note_block" },
+		"instrument=harp,note=0": { "model": "minecraft:block/note_block" },
 		"instrument=harp,note=1": { "model": "minecraft:block/note_block" },
 		"instrument=harp,note=2": { "model": "minecraft:block/note_block" },
 		"instrument=harp,note=3": { "model": "minecraft:block/note_block" },

@@ -167,6 +167,34 @@
                     "type": "model",
                     "model": "omega:item/weapons/oar_pin"
                 }
+            },
+            {
+                "threshold": 23,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/weapons/cane_sword"
+                }
+            },
+            {
+                "threshold": 24,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/weapons/kitchen_knife"
+                }
+            },
+            {
+                "threshold": 25,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/weapons/combat_knife"
+                }
+            },
+            {
+                "threshold": 26,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/weapons/baton"
+                }
             }
         ]
     }

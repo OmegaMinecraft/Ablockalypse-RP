@@ -15,7 +15,9 @@
 	"trims/entity/humanoid/random_armor",
 	"trims/entity/humanoid_leggings/random_armor",
 	"trims/entity/humanoid/other_armor",
-	"trims/entity/humanoid_leggings/other_armor"
+	"trims/entity/humanoid_leggings/other_armor",
+	"trims/entity/humanoid/hazmat_armor",
+	"trims/entity/humanoid_leggings/hazmat_armor"
 ],
 "palette_key":"trims/color_palettes/trim_palette_armor",
 "permutations":{
@@ -25,7 +27,8 @@
 	"riot_material":"trims/color_palettes/riot_palette",
 	"tactical_material":"trims/color_palettes/tactical_palette",
 	"random_material":"trims/color_palettes/random_palette",
-	"other_material":"trims/color_palettes/other_palette"
+	"other_material":"trims/color_palettes/other_palette",
+	"hazmat_material":"trims/color_palettes/hazmat_palette"
 }
 },
 {
