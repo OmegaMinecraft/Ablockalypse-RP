@@ -1,26 +1,19 @@
 {
   "pack": {
-    "pack_format": 13,
-    "supported_formats": {
-      "min_inclusive": 13,
-      "max_inclusive": 46
-    },
-    "description": "§3§lOmegaMinecraft Ablockalypse Resource Pack"
+    "description": "§3§lOmegaMinecraft Ablockalypse Resource Pack",
+    "min_format": 69,
+    "max_format": 69
   },
   "overlays": {
     "entries": [
       {
-        "formats": {
-          "min_inclusive": 32,
-          "max_inclusive": 34
-        },
+        "min_format": 69,
+        "max_format": 69,
         "directory": "mythichud-modern"
       },
       {
-        "formats": {
-          "min_inclusive": 42,
-          "max_inclusive": 46
-        },
+        "min_format": 69,
+        "max_format": 69,
         "directory": "mythichud-modern-plus"
       }
     ]
