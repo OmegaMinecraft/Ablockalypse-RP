@@ -1,3 +1,6 @@
 {
-  "parent": "block/chiseled_bookshelf_inventory"
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/chiseled_bookshelf"
+    }
 }

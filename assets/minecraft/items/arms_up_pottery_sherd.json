@@ -1,6 +1,6 @@
 {
-  "parent": "item/decorated_pot_model_base",
-  "textures": {
-    "sherd": "block/decorated_pot/arms_up_pottery_pattern"
-  }
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/arms_up_pottery_sherd"
+    }
 }

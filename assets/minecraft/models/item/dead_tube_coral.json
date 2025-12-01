@@ -1,0 +1,7 @@
+{
+  "parent": "block/dead_tube_coral",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "block/dead_tube_coral"
+  }
+}

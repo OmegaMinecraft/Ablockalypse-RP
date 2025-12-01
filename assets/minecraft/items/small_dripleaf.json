@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:block/small_dripleaf_stem_top"
-  }
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/small_dripleaf"
+    }
 }

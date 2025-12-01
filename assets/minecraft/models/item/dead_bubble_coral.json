@@ -1,0 +1,7 @@
+{
+  "parent": "block/dead_bubble_coral",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "block/dead_bubble_coral"
+  }
+}
