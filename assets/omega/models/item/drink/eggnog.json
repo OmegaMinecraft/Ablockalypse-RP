@@ -1,6 +1,6 @@
-github{
+{
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "omega:item/drink/health_shake"
+    "layer0": "omega:item/drink/eggnog"
   }
 }

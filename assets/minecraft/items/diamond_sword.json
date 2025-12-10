@@ -195,6 +195,48 @@
                     "type": "model",
                     "model": "omega:item/weapons/baton"
                 }
+            },
+            {
+                "threshold": 27,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/weapons/flame_axe"
+                }
+            },
+            {
+                "threshold": 28,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/weapons/flame_dagger"
+                }
+            },
+            {
+                "threshold": 29,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/weapons/ice_dagger"
+                }
+            },
+            {
+                "threshold": 30,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/weapons/ice_battleaxe"
+                }
+            },
+            {
+                "threshold": 31,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/weapons/ice_sword"
+                }
+            },
+            {
+                "threshold": 32,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/weapons/gold_katana"
+                }
             }
         ]
     }

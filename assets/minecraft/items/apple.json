@@ -461,6 +461,41 @@
                     "type": "model",
                     "model": "omega:item/drink/health_shake"
                 }
+            },
+            {
+                "threshold": 65,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/food/gingerbread_man"
+                }
+            },
+            {
+                "threshold": 66,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/food/candy_cane"
+                }
+            },
+            {
+                "threshold": 67,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/drink/hot_chocolate"
+                }
+            },
+            {
+                "threshold": 68,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/food/winter_stew"
+                }
+            },
+            {
+                "threshold": 69,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/drink/eggnog"
+                }
             }
         ]
     }
