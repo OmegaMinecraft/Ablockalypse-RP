@@ -70,6 +70,13 @@
                     "model": "cosmetic/hazmat_armor/hazmat_leggings"
                 }
             }
+            {
+                "threshold": 9,
+                "model": {
+                    "type": "model",
+                    "model": "cosmetic/fur_armor/fur_leggings"
+                }
+            }
         ]
     }
 }

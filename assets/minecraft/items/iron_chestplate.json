@@ -69,7 +69,14 @@
                     "type": "model",
                     "model": "cosmetic/hazmat_armor/hazmat_chestplate"
                 }
-            }
+            },
+            {
+                "threshold": 9,
+                "model": {
+                    "type": "model",
+                    "model": "cosmetic/fur_armor/fur_chestplate"
+                }
+            }       
         ]
     }
 }

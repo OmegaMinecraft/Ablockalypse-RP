@@ -69,6 +69,13 @@
                     "type": "model",
                     "model": "cosmetic/hazmat_armor/hazmat_boots"
                 }
+            },
+            {
+                "threshold": 9,
+                "model": {
+                    "type": "model",
+                    "model": "cosmetic/fur_armor/fur_boots"
+                }
             }
         ]
     }
