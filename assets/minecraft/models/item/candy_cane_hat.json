@@ -1,7 +1,6 @@
 {
 	"format_version": "1.21.6",
-	"credit": "Made with Blockbench",
-	"parent": "zawa:block/plushies/plush",
+	"parent": "builtin/entity",
 	"textures": {
 		"0": "item/candy_cane_hat",
 		"particle": "item/candy_cane_hat"

@@ -1,7 +1,6 @@
 {
 	"format_version": "1.21.11",
-	"credit": "Made with Blockbench",
-	"parent": "zawa:block/plushies/plush",
+	"parent": "builtin/entity",
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "item/santa_hat",
