@@ -1,10 +1,9 @@
 {
 	"credit": "Made with Blockbench",
-	"ambientocclusion": false,
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "block/hats/santa_hat",
-		"particle": "block/hats/chef_hat"
+		"0": "item/carved_pumpkin/santa_hat",
+		"particle": "item/carved_pumpkin/santa_hat"
 	},
 	"elements": [
 		{

@@ -1,10 +1,9 @@
 {
 	"credit": "Made with Blockbench",
-	"ambientocclusion": false,
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "block/hats/gift_hat",
-		"particle": "block/hats/gift_hat"
+		"0": "item/carved_pumpkin/gift_hat",
+		"particle": "item/carved_pumpkin/gift_hat"
 	},
 	"elements": [
 		{

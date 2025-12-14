@@ -1,10 +1,9 @@
 {
 	"credit": "Made with Blockbench",
-	"ambientocclusion": false,
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "block/hats/candy_cane_hat",
-		"particle": "block/hats/candy_cane_hat"
+		"0": "item/carved_pumpkin/candy_cane_hat",
+		"particle": "item/carved_pumpkin/candy_cane_hat"
 	},
 	"elements": [
 		{
