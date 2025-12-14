@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/carved_pumpkin"
+  },
+  "overrides": [
+    {
+      "predicate": { "custom_model_data": 1 },
+      "model": "cosmetic/hats/santa_hat"
+    },
+    {
+      "predicate": { "custom_model_data": 2 },
+      "model": " cosmetic/hats/candy_cane_hat"
+    }
+  ]
+}

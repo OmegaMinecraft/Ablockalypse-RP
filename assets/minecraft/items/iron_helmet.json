@@ -15,9 +15,7 @@
       { "threshold": 6, "model": { "type": "model", "model": "cosmetic/random_armor/random_helmet" } },
       { "threshold": 7, "model": { "type": "model", "model": "cosmetic/other_armor/other_helmet" } },
       { "threshold": 8, "model": { "type": "model", "model": "cosmetic/hazmat_armor/hazmat_helmet" } },
-      { "threshold": 9, "model": { "type": "model", "model": "cosmetic/fur_armor/fur_helmet" } },
-      { "threshold": 10, "model": { "type": "model", "model": "cosmetic/hats/santa_hat" } },
-      { "threshold": 11, "model": { "type": "model", "model": "cosmetic/hats/candy_cane_hat" } }
+      { "threshold": 9, "model": { "type": "model", "model": "cosmetic/fur_armor/fur_helmet" } }
     ]
   }
 }
