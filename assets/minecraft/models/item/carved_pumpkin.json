@@ -1,10 +1,12 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "minecraft:block/carved_pumpkin",
   "textures": {
     "layer0": "item/carved_pumpkin"
   },
   "overrides": [
     { "predicate": { "custom_model_data": 0 }, "model": "item/carved_pumpkin" },
-    { "predicate": { "custom_model_data": 1 }, "model": "cosmetic/hats/santa_hat" },
-    { "predicate": { "custom_model_data": 2 }, "model": "cosmetic/hats/candy_cane_hat" }
-  ]
+    { "predicate": { "custom_model_data": 1 }, "model": "block/hats/santa_hat" },
+    { "predicate": { "custom_model_data": 2 }, "model": "block/hats/candy_cane_hat" },
+    { "predicate": { "custom_model_data": 3 }, "model": "block/hats/gift_hat" }
+ ]
+}
