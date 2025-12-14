@@ -10,7 +10,7 @@
     },
     {
       "predicate": { "custom_model_data": 2 },
-      "model": " cosmetic/hats/candy_cane_hat"
+      "model": "cosmetic/hats/candy_cane_hat"
     }
   ]
 }
