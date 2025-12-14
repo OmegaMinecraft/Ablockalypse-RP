@@ -1,7 +1,7 @@
 {
-	"parent": "minecraft:item/generated",
+	"texture_size": [64, 64],
 	"textures": {
-		"0": "minecraft:item/santa_hat",
+		"layer0": "minecraft:item/santa_hat",
 		"particle": "minecraft:item/santa_hat"
 	},
 	"elements": [
