@@ -842,6 +842,13 @@
 			"height": 195,
 			"ascent": 65,
 			"chars": ["\u0508"]
+		},
+		{
+			"type": "bitmap",
+			"file": "omega:font/guis/backpack_five_rows.png",
+			"height": 195,
+			"ascent": 65,
+			"chars": ["\u0509"]
 		}                                                                                    
     ]
 }
