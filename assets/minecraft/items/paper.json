@@ -421,6 +421,13 @@
                 }
             },
             {
+                "threshold": 59,
+                "model": {
+                    "type": "model",
+                    "model": "omega:block/other/workbench"
+                }
+            },
+            {
                 "threshold": 1001,
                 "model": {
                     "type": "model",
@@ -1272,6 +1279,13 @@
                 "model": {
                     "type": "model",
                     "model": "omega:item/buttons/accept"
+                }
+            },
+            {
+                "threshold": 1149,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/buttons/back"
                 }
             }
         ]
