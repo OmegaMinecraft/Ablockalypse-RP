@@ -237,6 +237,20 @@
                     "type": "model",
                     "model": "omega:item/weapons/gold_katana"
                 }
+            },
+            {
+                "threshold": 33,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/weapons/wire_baseball_bat"
+                }
+            },
+            {
+                "threshold": 34,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/weapons/candy_cane_bat"
+                }
             }
         ]
     }
