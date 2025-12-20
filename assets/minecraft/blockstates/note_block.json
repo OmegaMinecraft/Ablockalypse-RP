@@ -31,7 +31,7 @@
 		"instrument=basedrum,note=3": { "model": "omega:block/containers/metal_drawers" },
 		"instrument=basedrum,note=4": { "model": "omega:block/containers/crate" },
 		"instrument=basedrum,note=5": { "model": "omega:block/containers/safe" },
-		"instrument=basedrum,note=6": { "model": "minecraft:block/note_block" },
+		"instrument=basedrum,note=6": { "model": "omega:block/other/workbench" },
 		"instrument=basedrum,note=7": { "model": "minecraft:block/note_block" },
 		"instrument=basedrum,note=8": { "model": "minecraft:block/note_block" },
 		"instrument=basedrum,note=9": { "model": "minecraft:block/note_block" },

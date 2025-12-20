@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:block/pointed_dripstone_down_frustum"
-  }
+    "model": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/pointed_dripstone"
+    }
 }

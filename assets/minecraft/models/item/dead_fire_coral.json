@@ -1,0 +1,7 @@
+{
+  "parent": "block/dead_fire_coral",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "block/dead_fire_coral"
+  }
+}

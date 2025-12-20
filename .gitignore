@@ -1,0 +1,12 @@
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+assets/minecraft/models/item/carved_pumpkin/teddy_bear.json

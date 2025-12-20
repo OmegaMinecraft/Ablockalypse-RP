@@ -146,6 +146,20 @@
                     "type": "model",
                     "model": "omega:item/other/plastic_scrap"
                 }
+            },
+            {
+                "threshold": 20,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/other/fur_scrap"
+                }
+            },
+            {
+                "threshold": 21,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/other/token"
+                }
             }
         ]
     }
