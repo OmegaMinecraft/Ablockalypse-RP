@@ -11,7 +11,7 @@
             "kind": "player"
           }
         },
-        "threshold": 1
+        "threshold": 18001
       },
       {
         "model": {
@@ -22,7 +22,7 @@
             "kind": "player"
           }
         },
-        "threshold": 2
+        "threshold": 18002
       },
       {
         "model": {
@@ -33,7 +33,7 @@
             "kind": "player"
           }
         },
-        "threshold": 3
+        "threshold": 18003
       },
       {
         "model": {
@@ -44,7 +44,7 @@
             "kind": "player"
           }
         },
-        "threshold": 4
+        "threshold": 18004
       },
       {
         "model": {
@@ -55,7 +55,7 @@
             "kind": "player"
           }
         },
-        "threshold": 5
+        "threshold": 18005
       },
       {
         "model": {
@@ -66,7 +66,7 @@
             "kind": "player"
           }
         },
-        "threshold": 6
+        "threshold": 18006
       },
       {
         "model": {
@@ -77,7 +77,7 @@
             "kind": "player"
           }
         },
-        "threshold": 7
+        "threshold": 18007
       },
       {
         "model": {
@@ -88,7 +88,7 @@
             "kind": "player"
           }
         },
-        "threshold": 8
+        "threshold": 18008
       }
     ],
     "fallback": {
