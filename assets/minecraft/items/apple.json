@@ -496,6 +496,34 @@
                     "type": "model",
                     "model": "omega:item/drink/eggnog"
                 }
+            },
+            {
+                "threshold": 70,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/food/cooked_beans"
+                }
+            },
+            {
+                "threshold": 71,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/food/fried_egg"
+                }
+            },
+            {
+                "threshold": 72,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/food/warm_soup"
+                }
+            },
+            {
+                "threshold": 73,
+                "model": {
+                    "type": "model",
+                    "model": "omega:item/drink/hot_coffee"
+                }
             }
         ]
     }
