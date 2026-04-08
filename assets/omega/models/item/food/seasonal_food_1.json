@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "omega:item/drink/eggnog"
+    "layer0": "omega:item/food/seasonal_food_1"
   }
 }

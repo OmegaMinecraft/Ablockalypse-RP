@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "omega:item/weapons/flame_axe"
+    "layer0": "omega:item/weapons/seasonal_weapon_2"
   }
 }

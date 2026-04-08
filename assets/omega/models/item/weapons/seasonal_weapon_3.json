@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "omega:item/weapons/ice_battleaxe"
+    "layer0": "omega:item/weapons/seasonal_weapon_3"
   }
 }
