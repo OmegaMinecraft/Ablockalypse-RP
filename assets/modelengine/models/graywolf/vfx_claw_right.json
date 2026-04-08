@@ -1,0 +1,1 @@
+{"textures":{"0":"modelengine:entity/graywolf","particle":"#0"},"elements":[{"from":[-15.5,7.75,-11.5],"to":[31.5,7.75,27.5],"faces":{"up":{"uv":[1.21875,5.046875,2.6875,3.828125],"tintindex":0,"rotation":0,"texture":"#0"},"down":{"uv":[2.6875,3.828125,4.15625,5.046875],"tintindex":0,"rotation":0,"texture":"#0"}}}],"display":{"gui":{"rotation":[-150.0,-45.0,180.0]}}}
